@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.images{
+    position: absolute;
+    right: 100px;
+}
+@media(max-width:950px){
+    .images{
+        right: 0;
+        bottom: 0;
+    }
+    .container>p{
+        font-size: 14px;
+        text-align: center;
+    }
+}

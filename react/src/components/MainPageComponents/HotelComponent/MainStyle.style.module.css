@@ -1,0 +1,207 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Container{
+    background-color: #F5FAFE;
+}
+
+.body{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.body>img{
+    width: 580px;
+    height: 500px;
+}
+
+.bgColorContainer{
+    display: none;
+}
+
+.MuiContainer-root{
+    width: 100%;
+}
+
+.bgColor{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(68, 79, 119, 0.116);
+}
+
+.bgColor>div>a{
+    text-decoration: none;
+    color: white;
+    font-family: initial;
+    font-size: 25px;
+}
+
+.bgColor>div{
+    opacity: 0;
+    height: 100%;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgColor>div:hover{
+    opacity: 1;
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(196, 196, 191, 0.486);
+    width: 100%;
+    min-width: 200px;
+}
+
+.aboutContent>p{
+    font-size: 24px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+}
+
+.CheckDates{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.CheckDates>p
+{
+    font-size: 15px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.Prices{
+    display: flex;
+    padding-top: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.Prices>p
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    gap: 10px;
+    font-size: 24px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.description{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;    
+}
+.description>p{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+
+.More{
+    display: flex;
+    padding-right: 60px;
+}
+
+.More>div>a{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: black;
+}
+
+.right
+{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.left{
+    width: 100%;
+    display: flex;
+}
+
+.BookNow{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+.TopHotels{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+}
+
+.Stars{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+@media (max-width:1070px){
+    .body>img{
+        width: 400px;
+        height: 380px;
+    }
+    .aboutContent{
+        min-height: 380px;
+    }
+    .aboutContent>p{
+        font-size: 18px;
+    }
+    .aboutCanvas>div>p{
+        font-size: 12px;
+    }
+    .CheckDates>p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:900px) {
+    .aboutContent{
+        position: absolute;
+        top: 0;
+        color: white;
+        background-color: rgba(61, 61, 61, 0.719);;
+    }
+    .body{
+        width: 400px;
+    }
+    .right{
+        justify-content: center;
+    }
+    .left{
+        justify-content: center;
+    }
+    .More>div>a{
+        color: white;
+    }
+}
+
+@media (max-width:450px){
+    .aboutContent{
+        width: 310px;
+        height: 400px;
+    }
+    .body>img{
+        width: 310px;
+        height: 400px;
+    }
+}

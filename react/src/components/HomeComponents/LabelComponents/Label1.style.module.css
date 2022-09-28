@@ -1,0 +1,52 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+    min-height: 60px;
+}
+
+.Container{
+    background-color: #F5FAFE;
+}
+.container>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container>div>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Call>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 13px;
+}
+.giftAndstar>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 16px;
+}
+
+@media (max-width:1010px) {
+    .Call>p{
+        font-size: 13px;
+        width: 80%;
+    }
+}
+
+@media (max-width:420px) {
+    .Call>p{
+        font-size: 8px;
+        width: 70%;
+    }
+    .giftAndstar>p{
+        font-size: 8px;
+    }
+}

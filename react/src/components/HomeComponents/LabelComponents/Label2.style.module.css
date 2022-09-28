@@ -1,0 +1,297 @@
+.BestPlan {
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 24px;
+}
+
+.Container {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.PayNow{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.PayNow>p{
+    font-size: 12px;
+}
+
+.reverse {
+    transform: rotate(180deg);
+}
+
+.Tour {
+    color: #EC1F46;
+}
+
+.Input {
+    width: 350px;
+    height: 40px;
+}
+
+.input {
+    width: 285px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 120px;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    gap: 10px;
+}
+
+.about>div {
+    display: flex;
+}
+
+.shopcart {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    text-align: center;
+}
+
+.shopcart>p {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    background-color: #EC1F46;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.profile>p {
+    width: 14px;
+}
+
+.search {
+    width: 25px;
+    height: 25px;
+}
+
+.peoplesParent{
+    position: relative;
+}
+
+.inputContainer {
+    display: flex;
+    gap: 5px;
+    min-height: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Inp_Btn{
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 10px;
+}
+
+
+.Search{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.inp1{
+    width: 300px;
+}
+
+
+.peoples{
+    width: 0;
+    position: absolute;
+    z-index: 3;
+    top: 56px;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+
+.adults{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.adults>div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bttns{
+    min-width: 40px;
+    max-width: 40px;
+    padding: 0;
+    height: 40px;
+}
+
+.childs{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.childs>div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rooms{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.rooms>div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.disabled {
+    display: none;
+}
+
+.profileinput {
+    display: none;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    background-color: rgba(10, 34, 61, 0.9);
+}
+
+.activeFlag {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.836);
+    color: black;
+}
+
+.activeFlag>a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: black;
+}
+
+.active>a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 8px;
+    font-weight: 20px;
+    font-family: Cursive;
+}
+
+.active>div>a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 20px;
+    font-family: Cursive;
+}
+
+.Bascket {
+    display: none;
+}
+
+.searchHotel {
+    display: none;
+}
+
+.flagDiv {
+    width: 100%;
+    position: relative;
+    padding-left: 15px;
+}
+
+.flagDiv>input {
+    position: absolute;
+    right: 15px;
+}
+
+@media (max-width:350px) {
+    .BestPlan {
+        font-size: 16px;
+    }
+    .input {
+        width: 150px;
+    }
+}
+
+@media (max-width:940px) {
+   .Bascket {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .input {
+        width: 120px;
+        flex-wrap: nowrap;
+    }
+
+    .BestPlan {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:620px) {
+    .BestPlan {
+        font-size: 18px;
+    }
+
+    .about {
+        gap: 0;
+    }
+
+}
+
+@media (max-width:750px) {
+
+    .searchHotel {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

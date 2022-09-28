@@ -1,0 +1,279 @@
+{
+    "questions":"Questions? Need Help? Call us on (+123) 456 1500",
+    "giftcart":"BTP Gift Card",
+    "Loyalty":"Loyalty Program",
+    
+    "Best":"Best",
+    "Tour":"Tour",
+    "Plan":"Plan",
+
+    "wanttogo":"Where you want to go",
+    "searchhotel":"Search Hotel By Country",
+    "checkprice":"Check prices",
+    "adults":"adults",
+    "childs":"childs",
+    "room":"rooms",
+
+
+    "state":"Select State",
+    "country":"Select Country",
+
+    "profile":"Profile",
+    "settings":"Settings",
+    "logout":"Log Out",
+    "bascket":"Bascket",
+    "search":"Search",
+    "searchpl":"Search Location",
+    
+    "allDeals":"All Deals",
+    "hotels":"Hotels",
+    "activities":"Activities",
+    "packages":"Hotel Day Packages",
+    "restaurants":"Restaurants",
+    "events":"Events",
+    "rodrigues":"Rodrigues",
+
+
+    "hfg":"Home / Flash Offers / Grand Hilton Hotel",
+
+    "ghh":"GRAND HILTON HOTEL",
+
+    "flash":"Flash Offer",
+    "halfBoard":"Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free",
+    "userRate":"User Rattings",
+
+
+    "pricestarts":"Price starts as",
+    "perRoom":"Per room / night",
+
+    "QB":"Quick Booking",
+    "guests":"2 x Guests",
+    "rooms":"1 x Room",
+
+    "VOO button":"View Other Options",
+
+    "packagesummery":"Package Summery",
+    "hotelinformation":"Hotel Information",
+    "Rooms":"Rooms",
+    "F&A":"Facilities & Activities",
+    "D&E":"Dining & Entertainment",
+    "Reviews":"Reviews",
+    "Q&A":"Questions & Answers",
+
+
+    "highlight1":{
+        "1":"Half Board/ All Inclusive",
+        "2":"Child Under 11 Years Stay Free",
+        "3":"LUX* Me Spa",
+        "4":"Luxurious 5-Star Hotel",
+        "5":"Banyan An Adult Only Zone"
+    },
+
+    "OffDet":"Offer Details",
+    "Benefit":"Benefit from a special discounted CHILL’OUT OFFER at Grand Hilton Hotel.",
+    "Valid":"* Valid until 30 April 2020",
+    "Calendar":"10th March - 30th April 2020",
+
+
+    "PSD":"Package Summery Details",
+
+    "highlight2":{
+        "title":"Purchase Inclusions",
+        "items":{
+            "1":"Room as per selection",
+            "2":"Half Board or All Inclusive Meal Plan",
+            "3":"Complimentary Land & Water activities",
+            "4":"Child Under 11 years old stays free",
+            "5":"Free Wi-Fi",
+            "6":"Free Secure Parking"
+        }
+    },
+
+    "highlight3":{
+        "title":"Complimentary Land Based Activities",
+        "items":{
+            "1":"Gym",
+            "2":"Beach Volley",
+            "3":"Table tennis",
+            "4":"Soccer balls",
+            "5":"Yoga",
+            "6":"Unlimited access to driving range"
+        }
+    },
+
+    "highlight4":{
+        "title":"Complimentary Water Based Activities",
+        "items":{
+            "1":"Water skiing",
+            "2":"Windsurfing",
+            "3":"Pedal boats",
+            "4":"Kayaking",
+            "5":"Aqua Gym",
+            "6":"Glass bottom boat trips"
+        }
+    },
+
+    "highlight5":{
+        "title":"Meal Plan Available",
+        "items":{
+            "1":"Half Board",
+            "2":"All Inclusive"
+        }
+    },
+
+    "highlight6":{
+        "title":"Entertainment",
+        "items":{
+            "1":"Live music",
+            "2":"DJ & Mauritian Dance Show"
+        }
+    },
+
+    "highlight7":{
+        "title":"Check In & Check Out",
+        "items":{
+            "1":"Check In Time 14:00",
+            "2":"Check Out Time 11:00"
+        }
+    },
+
+
+    "Hotel1":{
+        "title":"Hotel Blue Haven",
+        "description":"Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum magna llit. Ipsum est fugiat velit ea llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat eiusmod nsectetur enim laborum magna mollit. Ipsum est fugiat velit ea ullamco do",
+        "items":{
+            "1":"1749 Wheeler Ridge  Delaware",
+            "2":"2 x Guests",
+            "3":"1 x Room"
+        }
+    },
+
+    "Hotel2":{
+        "title":"LUX* Belle Mare",
+        "items":{
+            "1":"1749 Wheeler Ridge  Delaware",
+            "2":"2 x Guests",
+            "3":"1 x Room"
+        }
+    },
+    "Hotel3":{
+        "title":"White Palace",
+        "items":{
+            "1":"1749 Wheeler Ridge  Delaware",
+            "2":"2 x Guests",
+            "3":"1 x Room"
+        }
+    },
+    "Hotel4":{
+        "title":"Luxury Place",
+        "items":{
+            "1":"1749 Wheeler Ridge  Delaware",
+            "2":"2 x Guests",
+            "3":"1 x Room"
+        }
+    },
+    "Hotel5":{
+        "title":"Hotel Five Star",
+        "items":{
+            "1":"1749 Wheeler Ridge  Delaware",
+            "2":"2 x Guests",
+            "3":"1 x Room"
+        }
+    },
+
+    "BookNow":"Book Now",
+
+    "PeopleThings":"What people thinks about us",
+
+    "feedback":{
+        "date":"Stayed 18 Nov, 2019",
+        "description":"It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it was a good experience and could recommend."
+    },
+
+    "subscribe":"subscribe to our",
+    "Newsletter":"Newsletter",
+
+    "InputEmail":"Enter Your Email",
+    "ButtonEmail":"Send",
+
+    "Activities":"Other Activities",
+
+    "Main1":{
+        "name":"The curious corner of chamarel"
+    },
+    "Main2":{
+        "name":"Gymkhana club golf course"
+    },
+    "Main3":{
+        "name":"Tamarind falls hiking trip - full day"
+    },
+    "Main4":{
+        "name":"The blue marine discovery quest"
+    },
+
+
+    "FooterD1":{
+        "title":"All Categories",
+        "items":{
+            "1":"All Deals",
+            "2":"Hotels",
+            "3":"Activities",
+            "4":"Spa Packages",
+            "5":"Hotel Day Packages",
+            "6":"Restaurants",
+            "7":"Fitness",
+            "8":"Rodriguess"
+        }
+    },
+
+    "FooterD2":{
+        "title":"ADDITIONAL INFORMATION",
+        "items":{
+            "1":"About Us",
+            "2":"Contact Us",
+            "3":"How does it work?",
+            "4":"Frequently Asked Questions",
+            "5":"Deals.mu loyalty program",
+            "6":"Promote your Business on BTP"
+        }
+    },
+
+    "FooterD3":{
+        "title":"LEGAL INFORMATION",
+        "items":{
+            "1":"Terms & Conditions",
+            "2":"Disclaimer",
+            "3":"Cancellation policy",
+            "4":"Privacy"
+        }
+    },
+
+    "SN":"Social Network",
+
+    "ContDet":"CONTACT DETAILS",
+    "FeelFree":"Feel free to contact us by phone, email or by our contact form",
+    "9478":"9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States",
+    "tel":{
+        "1":"Tel (business hours) : 269 1500",
+        "2":"Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)",
+        "3":"Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)"
+    },
+
+    "SendMessage":"Send us a message",
+
+    "name":"Name",
+    "fullname":"Your Full Name",
+
+    "phone":"Phone",
+    "PN":"Phone Number",
+    "message":"Message",
+
+    "reqFilds":"* Required Fields",
+
+    "disclaimer":"Disclaimer    Conditions of use    Cancellation policy",
+
+
+    "hotelStay":"Hotels where you want to stay!",
+    "Royal":"Royal hospitality."
+}
+

@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.form>button{
+    width: 110px;
+    margin-left: 5px;
+}

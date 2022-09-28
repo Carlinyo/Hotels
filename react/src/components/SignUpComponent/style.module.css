@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.selects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Names{
+    display: flex;
+    justify-content: space-around;
+}

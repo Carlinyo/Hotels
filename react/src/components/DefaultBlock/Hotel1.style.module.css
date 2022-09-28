@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    max-width: 729px;
+    color: white;
+    border-radius: 5px;
+    height: 500px;
+}
+
+.info{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    background-color:#0A223D;
+    width: 364px;
+    height: 500px;
+}
+
+.info>ul{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.info>div>h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+}
+
+.description{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160.6%;
+}
+
+.lastPrice>p{
+    text-decoration-line: line-through;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.price>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.info>ul>li{
+    list-style-type: none;
+    position: relative;
+    right: 39px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+}
+.info>ul>li>img{
+    margin-right: 5px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    position: relative;
+    display: flex;
+}
+
+.FlashOffer{
+    position: absolute;
+    top: 20px;
+    background-color:#EC1F46;
+    width: 95px;
+    height: 30px;
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.FlashOffer>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+@media (max-width:790px){
+    .info{
+        position: absolute;
+        background-color:  rgba(10,34 ,61 ,0.3 );
+    }
+    .price>button{
+        width: 70%;
+        font-size: 70%;
+        margin-top: 35px;
+    }
+}
+@media (max-width:410px){
+    .container{
+        width: 300px;
+    }
+    .info{
+        width: 300px;
+    }
+    .img>img{
+        width: 300px;
+    }
+    .info>ul>li{
+        line-height: 17px;
+    }
+    .price>button{
+        width: 50%;
+        font-size: 50%;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width:365px){
+    .container{
+        width: 230px;
+    }
+    .info{
+        width: 230px;
+        padding: 5px;
+    }
+    .img>img{
+        width: 230px;
+    }
+    .FlashOffer{
+        display: none;
+    }
+    .description>p{
+        line-height:12x;
+    }
+    .info>ul>li{
+        line-height: 17px;
+    }
+    .price>button{
+        width: 50%;
+        font-size: 50%;
+        margin-top: 35px;
+    }
+}

@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:100px;
+    flex-wrap: wrap;
+}
+
+.Container{
+    background-color: #F5FAFE;
+}
+
+.d1_2{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.d3_5{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

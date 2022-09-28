@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.stars>img{
+    padding-left: 3px;
+    width: 15px;
+}
+
+.aboutHotel{
+    display: flex;
+    align-items: center;
+
+    gap: 35px;
+}
+.aboutHotel>h2{
+    margin: 0;
+}
+.aboutHotel>p{
+    width: 70px;
+    min-height: 20px;
+    background-color:#EC1F46;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.hotelRate{
+    min-width: 90px;
+    text-align: center;
+    min-height: 70px;
+    background: #EC1F46;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.hotelRate>h6{
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    color: white;
+}
+
+.hotelRate>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    margin: 10px;
+}
+
+.hotelRate>p>span{
+    font-size: 14px;
+}
+
+@media (max-width:580px){
+    .aboutHotel{
+        gap: 10px;
+        align-items: flex-start;
+    }
+}
+
+@media(max-width:550px){
+    
+    .aboutHotel>h2{
+        width: 30%;
+    }
+    .hotelRate>h6{
+        font-size: 10px;
+    }
+    .hotelRate>p{
+        font-size: 18px;
+    }
+    .hotelRate>p>span{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:420px){
+    .aboutHotel>h2{
+        width: 41%;
+    }
+    .aboutHotel>p{
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.container>div>div>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.title>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.container>div{
+    display: flex;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}   
+
+.telephones>p{
+    margin: 0;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.h1{
+    color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+@media (max-width:1000px) {
+    .container{
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+}
+
+@media (max-width:350px) {
+    .container{
+        padding: 20px;
+    }
+}

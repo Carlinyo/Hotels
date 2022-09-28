@@ -1,0 +1,138 @@
+.container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.aboutus>h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fdbContainer{
+    display: flex;
+    min-height:280px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+.img>img{
+    border-radius: 100%;
+}
+
+.likes{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    color:#EC1F46;
+    height: 20px;
+}
+
+.name>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    margin: 0;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+}
+
+.date>p{
+    margin: 0;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+    gap: 8px;   
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.description>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+}
+
+.left{
+    padding-right: 120px;
+    position: relative;
+    top: 120px;
+}
+
+.right{
+    padding-left: 120px;
+    position: relative;
+    top: 120px;
+}
+
+@media (max-width:800px) {
+    .left{
+        padding: 20px;  
+    } 
+    .right{
+        padding: 20px;
+    }
+}
+
+@media (max-width:650px){
+    .left{
+        padding: 0;
+        position: relative;
+        left: 20px;
+        z-index: 1;
+    }
+    .right{
+        padding: 0;
+        position: relative;
+        right: 20px;
+        z-index: 1;
+    }
+}
+
+@media (max-width:480px){
+    .likes{
+        display: none;
+    }
+}

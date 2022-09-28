@@ -1,0 +1,124 @@
+.container{
+    height: 500px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #0A223D;
+    color: white;
+}
+
+.img{
+    position: relative;
+}
+.FlashOffer{
+    position: absolute;
+    top: 20px;
+    background-color:#ec1f44da;
+    color: white;
+    width: 60px;
+    min-height: 18px;
+    text-align: center;
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlashOffer>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 15px;
+}
+.info{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.title>h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.items>p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+}
+.items>p>img{
+    margin-right: 10px;
+}
+
+.lastPrice{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.lastPrice>p{
+    text-decoration-line: line-through;
+    margin-bottom: 0;
+}
+
+.price>p{
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price>button{
+    margin-top: 20px;
+}
+
+@media(max-width:410px){
+    .container{
+        width: 300px;
+    }
+    .img>img{
+        width: 300px;
+    }
+    .price>button{
+        width: 50%;
+        font-size: 80%;
+        margin-top: 35px;
+    }
+}
+@media (max-width:365px){
+    .container{
+        width: 230px;
+        height: 450px;
+    }
+    .price>p{
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .price>button{
+        position: relative;
+        top: 20px;
+        left: 15px;
+        margin-top:20px;
+    }
+    .info{
+        width: 230px;
+    }
+    .img>img{
+        width: 230px;
+    }
+    .price>button{
+        width: 50%;
+        font-size: 60%;
+    }
+}
